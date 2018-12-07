@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "6244e02c-1dfd-4f3d-a493-1c7c910e8fa9",
+		"name": "Respawn",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Game Servers",
+			"item": [
+				{
+					"name": "/gameservers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{respawn_api}}/gameservers",
+							"host": [
+								"{{respawn_api}}"
+							],
+							"path": [
+								"gameservers"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
