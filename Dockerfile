@@ -1,11 +1,11 @@
 FROM node:8.9-alpine
 
-RUN mkdir /src
+RUN mkdir /usr/node
 
 RUN npm install nodemon -g
 
-WORKDIR /src
-ADD package.json /src/package.json
+WORKDIR /usr/node
+ADD package.json /usr/node/package.json
 RUN npm install
 
 EXPOSE 3000
